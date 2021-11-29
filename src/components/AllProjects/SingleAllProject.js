@@ -12,8 +12,8 @@ const SingleAllProject = ({ p }) => {
 
     return (
 
-        <div class="col ">
-            <div class="card h-100 shadow-sm project">
+        <div class="col  ">
+            <div class="card h-100 shadow-sm project bg-project">
 
                 <img src={p.image} class="card-img-top" alt="..." />
 
@@ -34,7 +34,7 @@ const SingleAllProject = ({ p }) => {
                             techSplit.map(singleTech => (
                                 <span
                                     style={{
-                                        backgroundColor: '#E5E7EB'
+                                        backgroundColor: 'rgba(187, 187, 181, 0.7)'
                                     }}
                                     className="px-2 py-1 rounded me-2 "
                                 >
@@ -48,7 +48,7 @@ const SingleAllProject = ({ p }) => {
 
 
 
-                <div className="card-footer pb-4 bg-white border-top-0 bg-project">
+                <div className="card-footer pb-4  border-top-0 bg-project">
 
                     <a href={p.live} target="_blank" rel="noreferrer" className="btn btn-sm btn-outline-dark me-3" type="button">
                         <FontAwesomeIcon icon={faGlobe} /> Live Site

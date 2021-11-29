@@ -37,7 +37,7 @@ const Projects = () => {
 
                     <div>
                         <Bounce bottom cascade>
-                            <h4 className="text-uppercase fw-bold pb-3 text-center">My Projects</h4>
+                            <h4 className="text-uppercase fw-bold pb-3 text-center">Recent Projects</h4>
                         </Bounce>
 
                         <Fade bottom>

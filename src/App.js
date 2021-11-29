@@ -10,7 +10,7 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 import Header from './components/Header/Header';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Footer from './components/Footer/Footer';
-// import Blog from './components/Blog/Blog';
+import Blog from './components/Blog/Blog';
 import AllProjects from './components/AllProjects/AllProjects';
 import AboutMe from './components/AboutMe/AboutMe';
 import Contact from './components/Contact/Contact';
@@ -34,9 +34,9 @@ function App() {
               <AllProjects></AllProjects>
             </Route>
 
-            {/* <Route path="/blog">
+            <Route path="/blog">
               <Blog></Blog>
-            </Route> */}
+            </Route>
 
             <Route path="/about">
               <AboutMe></AboutMe>

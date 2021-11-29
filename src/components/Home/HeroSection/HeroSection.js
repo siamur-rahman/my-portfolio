@@ -37,7 +37,7 @@ const HeroSection = () => {
 
                     <div>
                         <Link to='/contact'>
-                            <button className="btn btnContactMe me-2">
+                            <button className="btn btnContactMe m-1">
                                 <FontAwesomeIcon icon={faPaperPlane} /> Contact Me
                             </button>
                         </Link>

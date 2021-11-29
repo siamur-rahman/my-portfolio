@@ -26,6 +26,12 @@ const Header = () => {
 
                                 </Link>
                             </li>
+                            <li class="nav-item">
+                                <Link to={'/blog'} className="nav-link cool-link">
+                                    Blogs
+
+                                </Link>
+                            </li>
 
                             <li class="nav-item">
                                 <a className="nav-link cool-link" rel="noreferrer" href={resumeUrl} target="_blank">Resume</a>

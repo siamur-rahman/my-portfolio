@@ -28,7 +28,7 @@ const SingleProject = ({ p }) => {
                             techSplit.map(singleTech => (
                                 <span
                                     style={{
-                                        backgroundColor: '#E5E7EB'
+                                        backgroundColor: 'rgba(187, 187, 181, 0.7)'
                                     }}
                                     className="px-2 py-1 rounded me-2 "
                                 >
