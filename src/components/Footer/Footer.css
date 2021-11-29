@@ -1,10 +1,10 @@
 footer {
-    background: black;
+    background: rgb(0, 0, 0);
     color: #fff;
     font-size: 14px;
 }
 footer .footer-top {
-    background: black;
+    background: rgba(150, 144, 131, 0.378);
     padding: 50px 0px 20px;
 }
 footer .address p {
@@ -15,7 +15,7 @@ footer .address p {
 footer .social-links a {
     font-size: 17px;
     display: inline-block;
-    background: #28251f;
+    background: white;
     color: #7E7E7E;
     line-height: 1;
     padding: 9px 0;

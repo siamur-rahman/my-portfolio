@@ -11,11 +11,11 @@ const SingleProject = ({ p }) => {
 
     return (
         <div>
-            <div class="card mb-5 shadow-sm ">
+            <div class="card mb-5 shadow-sm bg-project">
                 <img src={p.image} class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title fw-bold">{p.name}</h5>
-                    <p className="text-secondary ">
+                    <p className="text-secondary  ">
                         <small>
                             <FontAwesomeIcon icon={faCalendar} /> {p.start} <FontAwesomeIcon icon={faLongArrowAltRight} />  {p.end}
                         </small>
@@ -40,7 +40,7 @@ const SingleProject = ({ p }) => {
 
                     </p>
                 </div>
-                <div className="card-footer pb-4 bg-white border-top-0 ">
+                <div className="card-footer pb-4  border-top-0 ">
 
                     <a href={p.live} target="_blank" rel="noreferrer" className="">
                         <button className="btn btn-outline-dark me-3">
@@ -49,7 +49,7 @@ const SingleProject = ({ p }) => {
                     </a>
                     <a href={p.github} target="_blank" rel="noreferrer" className="">
                         <button className="btn btn-outline-dark me-3">
-                            <FontAwesomeIcon icon={faGithub} /> Client GitHub
+                            <FontAwesomeIcon icon={faGithub} /> Client Site GitHub
                         </button>
                     </a>
 
@@ -58,7 +58,7 @@ const SingleProject = ({ p }) => {
 
                         <a href={p.server} target="_blank" rel="noreferrer" className="">
                             <button className="btn  btn-outline-dark me-3">
-                                <FontAwesomeIcon icon={faGithub} /> Server GitHub
+                                <FontAwesomeIcon icon={faGithub} /> Server Site GitHub
                             </button>
                         </a>
 

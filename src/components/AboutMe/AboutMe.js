@@ -145,23 +145,14 @@ const AboutMe = () => {
                                         <i className="devicon-git-plain-wordmark colored display-4"></i>
                                         <p className="fw-bold">Git</p>
                                     </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        {/* <i className="devicon-git-plain-wordmark colored display-4"></i>
-                                    <p className="fw-bold">Git</p> */}
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        {/* <i className="devicon-git-plain-wordmark colored display-4"></i>
-                                    <p className="fw-bold">Git</p> */}
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        {/* <i className="devicon-git-plain-wordmark colored display-4"></i>
-                                    <p className="fw-bold">Git</p> */}
-                                    </div>
+
+
+
                                 </div>
 
 
 
-                                {/* 4th row */}
+
                                 <div className="row">
 
                                 </div>

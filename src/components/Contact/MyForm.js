@@ -85,7 +85,7 @@ const MyForm = () => {
             {
                 !formMsg &&
 
-                <p className="mt-3 text-success fw-bold">Thank you for your message.</p>
+                <p className="mt-3 text-success fw-bold">ThankS for message.</p>
             }
 
         </div>

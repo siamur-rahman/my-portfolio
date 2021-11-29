@@ -14,10 +14,10 @@ const Footer = () => {
     return (
         <div className="">
             <footer className="mt-5 bg-dark">
-                <div className="footer-top ">
+                <div className="footer-top  ">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-3 col-sm-6">
+                            <div className="col-lg-4  col-sm-6">
                                 <div className="address">
                                     <h3 className="text-uppercase fw-bold text-white">Siamur Rahman</h3>
                                     <p className="mb-4 mt-4">
@@ -32,19 +32,8 @@ const Footer = () => {
 
                                 </div>
                             </div>
-
-                            <div className="col-lg-2 col-sm-6 footer-menus">
-                                <h4 className="text-uppercase fw-bold">Find Me</h4>
-                                <ul>
-                                    <li><a href="https://www.linkedin.com/in/siamur-rahman-b937441b3/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-                                    <li><a href="https://github.com/siamur-rahman" target="_blank" rel="noreferrer">GitHub</a></li>
-                                    <li><a href="https://www.facebook.com/Siam091" target="_blank" rel="noreferrer">Facebook</a></li>
-                                </ul>
-
-                            </div>
-
-                            <div className="col-lg-3 col-sm-6 footer-menus">
-                                <h4 className="text-uppercase fw-bold">Site Map</h4>
+                            <div className="col-lg-4 col-sm-6 footer-menus">
+                                <h4 className="text-uppercase fw-bold">Site Full Map</h4>
                                 <ul>
                                     <li><HashLink as={HashLink} to="/projects">My Projects</HashLink></li>
                                     <li><a href={resumeUrl} target="_blank" rel="noreferrer">Resume</a></li>
@@ -55,13 +44,19 @@ const Footer = () => {
 
                             </div>
 
+
+
+
                             <div className="col-lg-4 col-sm-6 newsletter">
                                 <h4 className="text-uppercase fw-bold">Social Links</h4>
 
                                 <div className="social-links mt-3">
-                                    <a href="https://www.linkedin.com/in/siamur-rahman-b937441b3/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                    <a href="https://github.com/siamur-rahman" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
-                                    <a href="https://www.facebook.com/Siam091" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
+
+                                    <a href="https://www.linkedin.com/in/siamur-rahman-b937441b3/" target="_blank" rel="noreferrer" className="mb-1"><FontAwesomeIcon icon={faLinkedin} /></a> LinkedIn <br />
+
+                                    <a href="https://github.com/siamur-rahman" target="_blank" rel="noreferrer" className="mb-1"><FontAwesomeIcon icon={faGithub} /></a>GitHub <br />
+
+                                    <a href="https://www.facebook.com/Siam091" target="_blank" rel="noreferrer" className="mb-1"><FontAwesomeIcon icon={faFacebook} /></a>Facebook
 
                                 </div>
                             </div>
@@ -78,7 +73,7 @@ const Footer = () => {
                                 <p>
                                     <a
                                         href="https://github.com/siamur-rahman" target="_blank" rel="noreferrer" title="My GitHub Repo">
-                                        <span className="text-white cool-link">© Siamur Rahman</span></a>
+                                        <span className="text-white cool-link"> © Siamur Rahman</span></a>
                                 </p>
                             </div>
                         </div>

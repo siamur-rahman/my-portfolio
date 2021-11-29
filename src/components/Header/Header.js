@@ -11,7 +11,7 @@ const Header = () => {
     return (
 
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-header py-4">
                 <div class="container text-uppercase">
                     <Link to="/home" className="navbar-brand fw-bold cool-link">Siamur Rahman</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,11 +31,7 @@ const Header = () => {
                                 <a className="nav-link cool-link" rel="noreferrer" href={resumeUrl} target="_blank">Resume</a>
                             </li>
 
-                            {/* <li class="nav-item">
-                                <Link to="/blog" className="nav-link cool-link">
-                                    Blog
-                                </Link>
-                            </li> */}
+
 
                             <li class="nav-item">
                                 <Link to="/about" class="nav-link cool-link" aria-current="page">

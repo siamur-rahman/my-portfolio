@@ -1,1 +1,9 @@
 
+.btn-my:hover{
+   background-color: rgb(19, 102, 68);
+   color: rgb(204, 178, 112);
+}
+
+.bg-project{
+   background-color: rgba(243, 220, 171, 0.522);
+}

@@ -27,7 +27,7 @@ const Projects = () => {
 
 
     return (
-        <div className="mt-5">
+        <div className="mt-5 ">
             {
                 isLoading ?
 
@@ -48,7 +48,7 @@ const Projects = () => {
 
                         <div className="text-center pb-5">
                             <Link to="/projects">
-                                <button className="btn btn-dark">
+                                <button className="btn btn-my btn-warning">
                                     See All Projects <FontAwesomeIcon icon={faAngleDoubleRight} />
                                 </button>
                             </Link>
