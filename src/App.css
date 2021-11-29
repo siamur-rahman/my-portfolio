@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.language{
+  background-color: #E5E7EB;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.custom-red-color{
+  color: #dc2626;
+
+}
+.my-border-bottom{
+  border-bottom: 2px solid #dc2626;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.cool-link{
+  color: black;
+}
+
+.cool-link:hover{
+  color: #2892a5 !important;
+  transition: 0.2s;
+}
+
+/* navbar on hove style start*/
+
+.cool-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #2892a5 ;
+  transition: width .4s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .4s;
+}
+
+/* navbar on hove style end*/
+
+
+
+.hero-section{
+  text-align: justify;
+}
+
+.hyper-link{
+  text-decoration: none;
+  color: black;
+
+}
+
+.hyper-link:hover{
+  text-decoration: underline;
+  color: #2892a5 ;
+  transition: 0.2s;
+}
+
+.rounded{
+  border-radius: 20px !important;
+}
+
+.project:hover img{
+  opacity: .8;
+  cursor: pointer;
+}
+
+.project:hover .project-name{
+  color: #217483 ;
+  text-decoration: underline;
+}
+
+
+.project img{
+  transition: 0.3s
+}
+
+
+.btnDwnResume {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+
+.btnDwnResume {
+   /* padding: 10px; */
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   /* box-shadow: 0 0 20px #eee; */
+   border-radius: 7px;
+   /* display: block; */
+ }
+
+ .btnDwnResume:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+.btnContactMe {background-image: linear-gradient(to right, #0fac55 0%, #1ec55e  51%, #14ad4f  100%)}
+
+.btnContactMe {
+   /* padding: 10px; */
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   /* box-shadow: 0 0 20px #eee; */
+   border-radius: 7px;
+   /* display: block; */
+ }
+
+ .btnContactMe:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+ .btn-linkedIn{
+   background-color: #0e76a8;
+   color: white;
+ }
+ .btn-linkedIn:hover{
+   background-color: #0e76a8;
+   color: white;
+   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+
+ }
+
+.btn-github{
+  background-color: #171515;
+  color: white;
+ }
+.btn-github:hover{
+  background-color: #171515;
+  color: white;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+}
+
+.btn-twitter{
+  background-color: #1DA1F2;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-twitter:hover{
+  background-color: #1DA1F2;
+  color: white;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 }
