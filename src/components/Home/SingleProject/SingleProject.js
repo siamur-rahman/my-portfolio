@@ -67,8 +67,8 @@ const SingleProject = ({ p }) => {
 
 
                         <a href={p.live} target="_blank" rel="noreferrer" className="">
-                            <button className="btn btn-sm btn-outline-dark me-3 mt-3">
-                                See More...
+                            <button className="btn btn-sm  me-3 mt-3">
+                                More Details...
                             </button>
                         </a>
                     }
