@@ -23,17 +23,7 @@ const HeroSection = () => {
 
                     <p><FontAwesomeIcon icon={faBriefcase} /> Front End React Developer</p>
 
-
                     <p> 5+ MERN Stack Projects, 10+ web projects</p>
-
-
-
-                    <p>
-                        <span className="language px-2 py-1 rounded me-2">JavaScript</span>
-                        <span className="language px-2 py-1 rounded me-2">React</span>
-                        <span className="language px-2 py-1 rounded me-2">MongoDB</span>
-                        <span className="language px-2 py-1 rounded me-2">NodeJS</span>
-                    </p>
 
                     <div>
                         <Link to='/contact'>

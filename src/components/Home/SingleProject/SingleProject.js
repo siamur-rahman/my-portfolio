@@ -57,12 +57,22 @@ const SingleProject = ({ p }) => {
                         p.server &&
 
                         <a href={p.server} target="_blank" rel="noreferrer" className="">
-                            <button className="btn  btn-outline-dark me-3">
+                            <button className="btn  btn-outline-dark me-3 mt-3">
                                 <FontAwesomeIcon icon={faGithub} /> Server Site GitHub
                             </button>
                         </a>
 
                     }
+                    {
+
+
+                        <a href={p.live} target="_blank" rel="noreferrer" className="">
+                            <button className="btn btn-sm btn-outline-dark me-3 mt-3">
+                                See More...
+                            </button>
+                        </a>
+                    }
+
                 </div>
             </div>
         </div>
