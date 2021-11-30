@@ -47,8 +47,6 @@ function App() {
               <Contact></Contact>
             </Route>
 
-
-
             <Route path="*">
               <PageNotFound></PageNotFound>
             </Route>
