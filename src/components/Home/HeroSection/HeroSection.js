@@ -24,7 +24,7 @@ const HeroSection = () => {
                     <p><FontAwesomeIcon icon={faBriefcase} /> Front End React Developer</p>
 
 
-                    <p>10+ web projects, 5+ MERN Stack Projects</p>
+                    <p> 5+ MERN Stack Projects, 10+ web projects</p>
 
 
 

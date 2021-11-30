@@ -14,6 +14,7 @@ import Blog from './components/Blog/Blog';
 import AllProjects from './components/AllProjects/AllProjects';
 import AboutMe from './components/AboutMe/AboutMe';
 import Contact from './components/Contact/Contact';
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   return (
@@ -56,7 +57,16 @@ function App() {
           </Switch>
           <Footer></Footer>
         </ScrollToTop>
+
       </Router>
+      <AnimatedCursor
+        innerSize={5}
+        outerSize={9}
+        color='053, 43, 201'
+        outerAlpha={0.3}
+        innerScale={0.5}
+        outerScale={3}
+      />
     </div>
   );
 }
