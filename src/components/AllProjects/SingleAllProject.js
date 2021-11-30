@@ -18,9 +18,8 @@ const SingleAllProject = ({ p }) => {
                 <img src={p.image} class="card-img-top" alt="..." />
 
                 <div class="card-body">
-                    <a href={p.live} target="_blank" rel="noreferrer" className="hyper-link">
-                        <h5 class="card-title project-name">{p.name}</h5>
-                    </a>
+                    <h5 class="card-title project-name">{p.name}</h5>
+
                     <p className="text-secondary">
                         <small>
                             <FontAwesomeIcon icon={faCalendar} /> {p.start} <FontAwesomeIcon icon={faLongArrowAltRight} />  {p.end}
@@ -65,11 +64,21 @@ const SingleAllProject = ({ p }) => {
                         p.server &&
 
                         <a href={p.server} target="_blank" rel="noreferrer" className="">
-                            <button className="btn btn-sm btn-outline-dark mt-3">
+                            <button className="btn btn-sm btn-outline-dark me-3 mt-3">
                                 <FontAwesomeIcon icon={faGithub} /> Server Site GitHub
                             </button>
                         </a>
                     }
+                    {
+
+
+                        <a href={p.live} target="_blank" rel="noreferrer" className="">
+                            <button className="btn btn-sm btn-outline-dark me-3 mt-3">
+                                See More...
+                            </button>
+                        </a>
+                    }
+
 
 
 

@@ -2,10 +2,10 @@
     {
         "image": "https://i.ibb.co/P9C2cJs/screenshot-1-copy.png",
         "name": "Thirst For Travel",
-        "start": "Nov 2021",
-        "end": "Nov 2021",
+        "start": "Oct 2021",
+        "end": "Oct 2021",
         "details": "Thirst For Travel MERN Stack website build with React.js along with CRUD and Dashboard functionalities. Google Firebase has been used for user authentication and hosting. For database i have use MongoDB here. Node.js is used in backend.",
-        "technology": "nodejs javaScript mongodb reactjs sweetalert2 axios firebase-auth swiper emailjs react-reveal bootstrap5",
+        "technology": "nodejs javaScript mongodb reactjs axios firebase-auth react-hook-form bootstrap5 css3 google-auth",
         "live": "https://thirst-for-travel.web.app/",
         "github": "https://github.com/siamur-rahman/client-side-Thirst-for-travel-11",
         "server": "https://github.com/siamur-rahman/serer-side-thirst-for-travel-11"
@@ -16,7 +16,7 @@
         "start": "Nov 2021",
         "end": "Nov 2021",
         "details": " WATCH GALARY Needs of Cuyahoga witH our County for more than 110 years.             MERN Stack website build with React.js along with CRUD and Dashboard functionalities. Google Firebase has been used for user authentication and hosting. For database i have use MongoDB here. Node.js is used in backend.",
-        "technology": "react nodejs heroku bootstrap firebase mongodb stripe rest-api",
+        "technology": "nodejs javaScript mongodb reactjs axios firebase-auth react-hook-form bootstrap5 css3 google-auth rest-api",
         "live": "https://watch-6c93d.web.app/",
         "github": "https://github.com/siamur-rahman/cilent-side-watch-12",
         "server": "https://github.com/siamur-rahman/server-side-watch-12"
@@ -24,10 +24,10 @@
     {
         "image": "https://i.ibb.co/1Q9YLy4/screenshot-2-copy.png",
         "name": "Excellence in MEDI CARE",
-        "start": "Oct 2020",
-        "end": "Oct 2020",
+        "start": "Oct 2021",
+        "end": "Oct 2021",
         "details": "MERN stack website for Hospitals needs of Cuyahoga with different types our Country for more than 110 years.",
-        "technology": "react nodejs heroku bootstrap firebase mongodb stripe rest-api",
+        "technology": "nodejs javaScript mongodb reactjs axios firebase-auth react-hook-form bootstrap5 css3 google-auth rest-api",
         "live": "https://naughty-hypatia-8f24ed.netlify.app/",
         "github": "https://github.com/siamur-rahman/medicare-10",
         "server": "https://github.com/siamur-rahman/medicare-10"
