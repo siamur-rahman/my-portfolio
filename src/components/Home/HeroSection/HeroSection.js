@@ -11,11 +11,7 @@ const HeroSection = () => {
     return (
         <div >
             <div className="row d-flex  align-items-center py-5">
-                <div className="col-md-3">
-                    <div>
-                        <img className="rounded-circle img-fluid" src={Img} alt="" />
-                    </div>
-                </div>
+
                 <div className="col-md-9 ">
                     <Flip top cascade>
                         <h2 className="fw-bold text-uppercase">Siamur Rahman</h2>
@@ -34,6 +30,11 @@ const HeroSection = () => {
                         <a href="https://drive.google.com/file/d/17a6HgIc0dOcsX0ZyoATmBg8YcDCXFTUQ/view" type="button" className="btn btnDwnResume ">
                             <FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume
                         </a>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div>
+                        <img className="rounded-circle img-fluid" src={Img} alt="" />
                     </div>
                 </div>
             </div>
