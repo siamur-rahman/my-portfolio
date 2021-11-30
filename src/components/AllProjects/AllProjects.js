@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { faStaylinked } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import Loading from '../Loading/Loading';
 import SingleAllProject from './SingleAllProject';
 import Zoom from 'react-reveal/Zoom';
@@ -30,7 +29,7 @@ const AllProjects = () => {
                 <h3>
                     <Flip top cascade>
                         <span className="pb-2  ">
-                            <FontAwesomeIcon icon={faStaylinked} /> All Projects
+                            All Projects
                         </span>
                     </Flip>
                 </h3>
